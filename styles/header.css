@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+header {
+	background-color: #121212;
+	display: flex;
+	flex-direction: column;
+}
+header nav {
+	font-family: "Inter", sans-serif;
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 12.5%;
+	padding: 2.5rem 0;
+	border-bottom: 2px solid #151515;
+}
+header nav h2 {
+	color: #00d2df;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1.813rem;
+}
+header nav ul {
+	color: #c4c4c4;
+	font-size: 1.125rem;
+	display: flex;
+	gap: 4.125rem;
+}
+
+header .apresentacao {
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	gap: 0.75rem;
+	width: 100%;
+}
+header .apresentacao .eu {
+	width: 30rem;
+	margin: 9.5rem 0 13.25rem 12.5%;
+}
+header .apresentacao .eu h3 {
+	font-size: 1.5rem;
+	line-height: 1.813rem;
+}
+header .apresentacao .eu h1 {
+	font-size: 4rem;
+	line-height: 4.813rem;
+	color: #00d2df;
+}
+header .apresentacao .eu .links {
+	display: flex;
+	gap: 1rem;
+}
+header .apresentacao .eu .links a {
+	font-size: 1rem;
+	line-height: 1.188rem;
+	text-transform: none;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 4rem 0 0 0;
+	padding: 0.5rem 1rem;
+	border: 2px solid;
+	align-items: center;
+}
+header .apresentacao .eu .links .border-linkedin {
+	border-image: linear-gradient(45deg, #9358f7, #10d7e2 100%) 2;
+}
+header .apresentacao .eu .links .border-github {
+	border-image: linear-gradient(90deg, #d24074, #6518b4 100%) 1;
+}
+
+figure {
+	background-image: url("../assets/header/bg.svg");
+	width: calc(86.64% - 30rem);
+}
