@@ -68,17 +68,19 @@ header .apresentacao .eu .links a {
 	gap: 1rem;
 	margin: 4rem 0 0 0;
 	padding: 0.5rem 1rem;
-	border: 2px solid;
 	align-items: center;
+	justify-content: center;
+	border: 2px solid transparent;
 }
 header .apresentacao .eu .links .border-linkedin {
-	border-image: linear-gradient(45deg, #9358f7, #10d7e2 100%) 2;
+	border-image: linear-gradient(45deg, #9358f7, #10d7e2 100%) 1;
 }
 header .apresentacao .eu .links .border-github {
 	border-image: linear-gradient(90deg, #d24074, #6518b4 100%) 1;
 }
 
-figure {
+.loop {
 	background-image: url("../assets/header/bg.svg");
 	width: calc(86.64% - 30rem);
+	background-repeat: no-repeat;
 }
