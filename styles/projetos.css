@@ -1,0 +1,74 @@
+main .projetos {
+	background-color: #151515;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	gap: 3.75rem;
+	padding: 6.25rem 0% 6.25rem 12.5%;
+}
+main .projetos .listagem {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+}
+main .projetos .listagem .p1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+main .projetos .listagem .p1 div {
+	width: 29.6rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+main .projetos .listagem .p1 div figure {
+	height: 12.5rem;
+	background-color: #121212;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #00d2df;
+	border-radius: 2px;
+	border-left: 2px solid #00d2df;
+	margin-bottom: 2.5rem;
+}
+main .projetos .listagem .p1 div h3 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.813rem;
+	margin-bottom: 1.875rem;
+}
+main .projetos .listagem .p1 div p {
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.625rem;
+	color: #c4c4c4;
+	margin-bottom: 1.625rem;
+}
+main .projetos .listagem .p1 div .tecnologias {
+	color: #00d2df;
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+main .projetos .listagem .p1 div a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.21rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	width: 11.313rem;
+	border: 2px solid transparent;
+	padding: 0.5rem 1rem;
+	border-image: linear-gradient(45deg, #9358f7, #10d7e2 100%) 1;
+}

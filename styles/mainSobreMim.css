@@ -68,9 +68,9 @@ main .sobreMim .buttons a {
 	border: 2px solid transparent;
 	padding: 0.5rem 1rem;
 }
-main .sobreMim .buttons .curriculo {
+main .sobreMim .buttons .email {
 	border-image: linear-gradient(45deg, #9358f7, #10d7e2 100%) 1;
 }
-main .sobreMim .buttons .email {
+main .sobreMim .buttons .curriculo {
 	border-image: linear-gradient(90deg, #d24074, #6518b4 100%) 1;
 }
