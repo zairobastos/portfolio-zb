@@ -1,0 +1,66 @@
+main .experiencia {
+	background-color: #121212;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	gap: 1.625rem;
+	padding: 6.25rem 0 6.25rem 12.5%;
+}
+main .experiencia .divisao {
+	display: flex;
+	flex-direction: row;
+	gap: 5.5rem;
+}
+main .experiencia .divisao ul li {
+	width: 13.7rem;
+	height: 3.438rem;
+	color: #c4c4c4;
+	font-weight: 300;
+	font-size: 1.125rem;
+	line-height: 1.375rem;
+	border-left: 2px solid #151515;
+	padding: 1.125rem 2.625rem 0.938rem 2.25rem;
+}
+main .experiencia .divisao ul .ativo {
+	border-left: 2px solid #00d2df;
+	background-color: #151515;
+	color: #fff;
+}
+main .experiencia .divisao .detalhes {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 39.75rem;
+	gap: 1.625rem;
+}
+main .experiencia .divisao .detalhes div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+main .experiencia .divisao .detalhes div h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1.816rem;
+}
+main .experiencia .divisao .detalhes div p {
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+main .experiencia .divisao .detalhes .local {
+	color: #00d2df;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+main .experiencia .divisao .detalhes .desc {
+	font-size: 1.125rem;
+	font-weight: 300;
+	line-height: 1.75rem;
+	color: #c4c4c4;
+}
