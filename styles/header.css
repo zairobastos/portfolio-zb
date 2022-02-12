@@ -24,10 +24,12 @@ header nav h2 {
 	line-height: 1.813rem;
 }
 header nav ul {
-	color: #c4c4c4;
-	font-size: 1.125rem;
 	display: flex;
 	gap: 4.125rem;
+}
+header nav ul li a {
+	color: #c4c4c4;
+	font-size: 1.125rem;
 }
 
 header .apresentacao {
