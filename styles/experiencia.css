@@ -2,7 +2,6 @@ main .experiencia {
 	background-color: #121212;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	color: #fff;
 	font-family: "Inter", sans-serif;
 	gap: 1.625rem;
@@ -10,6 +9,7 @@ main .experiencia {
 }
 main .experiencia .divisao {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	gap: 5.5rem;
 }

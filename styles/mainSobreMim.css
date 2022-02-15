@@ -8,6 +8,7 @@ main .sobreMim {
 	display: flex;
 	margin: 6.25rem 0 6.25rem 12.5%;
 	gap: 11.438rem;
+	flex-wrap: wrap;
 }
 main .sobreMim .perfil img {
 	width: 22.938rem;
