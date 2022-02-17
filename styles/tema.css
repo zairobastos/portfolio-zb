@@ -52,7 +52,17 @@
 /*Estilos CSS*/
 .dark {
 	background-color: #121212;
+	transition: all 0.5s;
 }
-.dark-200 {
+.dark2 {
 	background-color: #151515;
+	transition: all 0.5s;
+}
+.light {
+	background-color: #fff;
+	transition: all 0.5s;
+}
+.gray-light {
+	background-color: #f9f9f9;
+	transition: all 0.5s;
 }
