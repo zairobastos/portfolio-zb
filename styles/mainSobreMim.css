@@ -2,7 +2,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background-color: #151515;
 }
 main .sobreMim {
 	display: flex;
@@ -18,7 +17,6 @@ main .sobreMim .perfil img {
 }
 main .sobreMim .desc {
 	width: 33.125rem;
-	font-family: "Inter", sans-serif;
 }
 main .sobreMim .desc h2 {
 	color: #fff;

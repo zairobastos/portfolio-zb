@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-
 header {
-	background-color: #121212;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 header nav {
-	font-family: "Inter", sans-serif;
 	width: 75%;
 	display: flex;
 	flex-wrap: wrap;
@@ -15,7 +11,7 @@ header nav {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 12.5%;
-	padding: 2.5rem 0;
+	padding: 2.5rem 0 2.5rem 0;
 	border-bottom: 2px solid #151515;
 }
 header nav h2 {
@@ -38,7 +34,6 @@ header .apresentacao {
 	flex-direction: row;
 	justify-content: space-between;
 	color: #fff;
-	font-family: "Inter", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 	width: 100%;

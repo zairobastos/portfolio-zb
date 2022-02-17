@@ -1,10 +1,8 @@
 main .projetos {
-	background-color: #151515;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	color: #fff;
-	font-family: "Inter", sans-serif;
 	gap: 3.75rem;
 	padding: 6.25rem 0% 6.25rem 12.5%;
 }
@@ -27,7 +25,6 @@ main .projetos .listagem .p1 div {
 	flex-wrap: wrap;
 }
 main .projetos .listagem .p1 div figure {
-	background-color: #121212;
 	display: flex;
 	align-items: center;
 	justify-content: center;

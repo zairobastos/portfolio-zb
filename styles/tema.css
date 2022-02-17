@@ -1,0 +1,58 @@
+.dark-light {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: right;
+	align-items: center;
+	width: 75%;
+	margin: auto;
+	padding: 0.5rem 0 0 0;
+	gap: 1rem;
+}
+.dark-light p {
+	color: #f9f9f9;
+}
+.toggle {
+	display: none;
+}
+.toggle + label {
+	width: 3rem;
+	height: 1.5rem;
+	background-color: #303134;
+	display: block;
+	border-radius: 1.5rem;
+	padding: 0.125rem;
+	transition: 200ms;
+	cursor: pointer;
+	position: relative;
+}
+.toggle + label:before {
+	content: "";
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #f9f9f9;
+	display: block;
+	border-radius: 50%;
+	right: unset;
+	left: 0.125rem;
+	top: 0.125rem;
+	transition: 200ms;
+}
+.toggle:checked + label {
+	background-color: #f2f2f2;
+}
+
+.toggle:checked + label:before {
+	content: " ";
+	left: calc(100% - 22px);
+	background: #303134;
+	box-shadow: 0 4px 4px rgba(0 0 0 / 10%);
+}
+
+/*Estilos CSS*/
+.dark {
+	background-color: #121212;
+}
+.dark-200 {
+	background-color: #151515;
+}

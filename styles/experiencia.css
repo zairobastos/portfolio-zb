@@ -1,9 +1,7 @@
 main .experiencia {
-	background-color: #121212;
 	display: flex;
 	flex-direction: column;
 	color: #fff;
-	font-family: "Inter", sans-serif;
 	gap: 1.625rem;
 	padding: 6.25rem 0 6.25rem 12.5%;
 }
