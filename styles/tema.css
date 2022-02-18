@@ -49,7 +49,7 @@
 	box-shadow: 0 4px 4px rgba(0 0 0 / 10%);
 }
 
-/*Estilos CSS*/
+/*Estilos CSS background*/
 .dark {
 	background-color: #121212;
 	transition: all 0.5s;
@@ -65,4 +65,43 @@
 .gray-light {
 	background-color: #f9f9f9;
 	transition: all 0.5s;
+}
+
+/* Cor dos textos*/
+/*1. header*/
+
+.light .dark-light p,
+.light .menu ul li a,
+.light .apresentacao .eu .texto h3,
+.light .apresentacao .eu .links a,
+.gray-light .sobreMim .desc h2,
+.gray-light .sobreMim .desc h3,
+.gray-light .sobreMim .desc .buttons a,
+.gray-light .experiencia h2,
+.gray-light .experiencia .divisao .detalhes div p,
+.gray-light .projetos h2,
+.gray-light .projetos h3,
+.gray-light .projetos .listagem .p1 a,
+.light p {
+	color: #151515;
+}
+.gray-light .sobreMim .desc p,
+.gray-light .experiencia .divisao .detalhes .desc,
+.gray-light .projetos .listagem .p1 p .light .footer p {
+	color: #303134;
+}
+.light nav {
+	border-bottom: 2px solid #f9f9f9;
+}
+
+/*CSS DIVISÃO*/
+.gray-light .experiencia .divisao ul li {
+	border-left: 2px solid #f9f9f9;
+	color: #303134;
+}
+.gray-light .experiencia .divisao ul .ativo {
+	background-color: #f9f9f9;
+	color: #151515;
+	font-weight: 600;
+	border-left: 2px solid #00d2df;
 }
