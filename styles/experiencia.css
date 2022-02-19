@@ -20,6 +20,7 @@ main .experiencia .divisao ul li {
 	line-height: 1.375rem;
 	border-left: 2px solid #151515;
 	padding: 1.125rem 2.625rem 0.938rem 2.25rem;
+	cursor: pointer;
 }
 main .experiencia .divisao ul .ativo {
 	border-left: 2px solid #00d2df;
