@@ -23,20 +23,20 @@ clicar.addEventListener("click", function () {
 	let email = document.querySelector("#email");
 	let link = document.querySelectorAll(".linkimg");
 	if (clicar.checked) {
-		linkedin.src = "../assets/header/linkedin-dark.svg";
-		github.src = "../assets/header/github-dark.svg";
-		curriculo.src = "../assets/sobreMim/download-dark.svg";
-		email.src = "../assets/sobreMim/mail-dark.svg";
+		linkedin.src = "assets/header/linkedin-dark.svg";
+		github.src = "assets/header/github-dark.svg";
+		curriculo.src = "assets/sobreMim/download-dark.svg";
+		email.src = "assets/sobreMim/mail-dark.svg";
 		for (let i = 0; i < link.length; i++) {
-			link[i].src = "../assets/projetos/link-dark.svg";
+			link[i].src = "assets/projetos/link-dark.svg";
 		}
 	} else {
-		linkedin.src = "../assets/header/linkedin.svg";
-		github.src = "../assets/header/github.svg";
-		curriculo.src = "../assets/sobreMim/download-cloud.svg";
-		email.src = "../assets/sobreMim/mail.svg";
+		linkedin.src = "assets/header/linkedin.svg";
+		github.src = "assets/header/github.svg";
+		curriculo.src = "assets/sobreMim/download-cloud.svg";
+		email.src = "assets/sobreMim/mail.svg";
 		for (let i = 0; i < link.length; i++) {
-			link[i].src = "../assets/projetos/link.svg";
+			link[i].src = "assets/projetos/link.svg";
 		}
 	}
 });
