@@ -16,10 +16,11 @@
 		<link rel="stylesheet" href="styles/experiencia.css" />
 		<link rel="stylesheet" href="styles/projetos.css" />
 		<link rel="stylesheet" href="styles/footer.css" />
+		<link rel="stylesheet" href="styles/menuResponsivo.css" />
 		<link rel="stylesheet" href="styles/tema.css" />
 	</head>
 	<body>
-		<header id="home" class="dark">
+		<header id="home" class="dark menu-mob">
 			<div class="dark-light">
 				<p class="tema-nome">Tema: Dark</p>
 				<input
@@ -31,7 +32,11 @@
 				<label for="toggle" id="label-toggle"></label>
 			</div>
 			<nav class="menu">
-				<h2>Portfólio</h2>
+				<div class="header-menu-mob">
+					<h2>Portfólio</h2>
+					<i class="fas fa-bars menu-mobile visible"></i>
+					<i class="fas fa-times close hidden"></i>
+				</div>
 				<ul>
 					<li><a href="#home">Home</a></li>
 					<li><a href="#sobreMim">Sobre mim</a></li>
@@ -266,5 +271,10 @@
 
 		<script src="js/tema.js"></script>
 		<script src="js/experiencia.js"></script>
+		<script
+			src="https://kit.fontawesome.com/b5a4885fa4.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/menu.js"></script>
 	</body>
 </html>

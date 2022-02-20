@@ -84,3 +84,8 @@ header .apresentacao .eu .links .border-github {
 	position: absolute;
 	right: 0;
 }
+header nav .menu-mobile,
+header nav .close {
+	display: none;
+	color: #fff;
+}

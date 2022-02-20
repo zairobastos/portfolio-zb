@@ -1,0 +1,66 @@
+@media screen and (max-width: 1255px) {
+	main .sobreMim {
+		gap: 5rem;
+		transition: all 0.5s;
+	}
+}
+@media screen and (max-width: 1134px) {
+	header .apresentacao figure img {
+		display: none;
+	}
+	header nav {
+		margin: 0% 5%;
+		width: 90%;
+	}
+	header .dark-light {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 755px) {
+	header nav ul {
+		display: none;
+	}
+	header nav .visible {
+		display: block;
+	}
+	header nav .hidden {
+		display: none;
+	}
+	header .dark-light {
+		display: none;
+	}
+	.menu {
+		position: fixed;
+		z-index: 10;
+		background-color: #121212;
+		width: 100%;
+		margin: 0;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.menuG {
+		border: none;
+		height: 100vh;
+		align-items: flex-start;
+	}
+	header .header-menu-mob {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+	header .menuG ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	header .menuG ul li a {
+		font-size: 1.5rem;
+	}
+	header .apresentacao .eu {
+		margin: 15rem 0 4rem 12.5%;
+	}
+}
