@@ -15,6 +15,7 @@ main .sobreMim .perfil img {
 	height: 22.938rem;
 	border-left: 4px solid #00d2df;
 	border-radius: 4px;
+	transition: all 0.5s;
 }
 main .sobreMim .desc {
 	width: 33.125rem;

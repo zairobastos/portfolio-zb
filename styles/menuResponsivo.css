@@ -15,8 +15,74 @@
 	header .dark-light {
 		width: 90%;
 	}
+
+	main .sobreMim {
+		gap: 5rem;
+	}
+	main .sobreMim .perfil {
+		width: 17rem;
+	}
+	main .sobreMim .perfil img {
+		width: 17rem;
+		height: 17rem;
+		transition: all 0.5s;
+	}
+
+	main .experiencia .divisao ul li {
+		width: 11.875rem;
+	}
+	main .experiencia .divisao {
+		gap: 2%;
+	}
+	main .experiencia .divisao .detalhes {
+		width: 33.125rem;
+	}
+
+	main .experiencia .divisao .detalhes div h2 {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	main .sobreMim {
+		gap: 0;
+	}
+	main .sobreMim .desc {
+		margin-left: -50px;
+	}
+	main .sobreMim .perfil img {
+		width: 11.875rem;
+		height: 11.875rem;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	main .sobreMim .desc {
+		margin-left: -50px;
+		width: 25rem;
+	}
+	main .sobreMim {
+		margin-left: 5%;
+	}
+	main .experiencia {
+		padding: 6.25rem 5% 0 5%;
+		margin-bottom: 0;
+	}
+	main .experiencia .divisao .detalhes {
+		width: 28.125rem;
+	}
+	main .experiencia .divisao .detalhes div p {
+		font-size: 0.8rem;
+	}
+	main .experiencia .divisao .detalhes .desc {
+		font-size: 1rem;
+	}
 }
 @media screen and (max-width: 755px) {
+	header .apresentacao .eu {
+		margin-bottom: 6.5rem;
+	}
 	header nav ul {
 		display: none;
 	}
@@ -29,14 +95,27 @@
 	header .dark-light {
 		display: none;
 	}
+	header .menu-mob {
+		display: block;
+		z-index: 1000;
+	}
 	.menu {
 		position: fixed;
-		z-index: 10;
-		background-color: #121212;
 		width: 100%;
 		margin: 0;
 		padding-right: 5%;
 		padding-left: 5%;
+	}
+	.dark .menu {
+		z-index: 10;
+		background-color: #121212;
+	}
+	.light .menu {
+		z-index: 10;
+		background-color: #fff;
+	}
+	.light .menu i {
+		color: #121212;
 	}
 	.menuG {
 		border: none;
@@ -60,7 +139,74 @@
 	header .menuG ul li a {
 		font-size: 1.5rem;
 	}
+	main .experiencia {
+		width: 100%;
+		padding-bottom: 6.25rem;
+	}
+	main .experiencia .divisao {
+		flex-direction: column;
+		width: 100%;
+	}
+	main .experiencia .divisao ul {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+	main .experiencia .divisao ul li,
+	.gray-light .experiencia .divisao ul li {
+		border: none;
+		border-bottom: 2px solid #151515;
+	}
+	.gray-light .experiencia .divisao ul li {
+		border-bottom: 2px solid #f9f9f9;
+	}
+	main .experiencia .divisao ul .ativo,
+	.gray-light .experiencia .divisao ul .ativo {
+		border: none;
+		border-bottom: 2px solid #00d2df;
+	}
+
+	main .experiencia .divisao .detalhes {
+		width: 100%;
+	}
+
+	main .projetos {
+		width: 90%;
+		padding-left: 5%;
+	}
+	main .projetos .listagem .p1 div {
+		width: 100%;
+	}
+	main .projetos .listagem .p1 div figure {
+		width: 424.42px;
+		height: 239.67px;
+	}
+	main .projetos .listagem .p1 div figure img {
+		width: 424.42px;
+		height: 239.67px;
+	}
+}
+
+@media screen and (max-width: 674px) {
+	main .sobreMim {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+	main .sobreMim .desc {
+		margin: 1rem 0 0 0;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 590px) {
+	header .apresentacao {
+		padding-left: 0%;
+	}
 	header .apresentacao .eu {
-		margin: 15rem 0 4rem 12.5%;
+		margin-left: 10%;
+	}
+	header .apresentacao .eu .texto h1 {
+		font-size: 3rem;
 	}
 }

@@ -7,6 +7,8 @@ menuMobile.addEventListener("click", () => {
 	closer.classList.toggle("hidden");
 	closer.classList.toggle("visible");
 	menu2.classList.add("menuG");
+	document.documentElement.style.overflow = "hidden";
+	document.body.scroll = "no";
 });
 
 closer.addEventListener("click", () => {
@@ -15,4 +17,6 @@ closer.addEventListener("click", () => {
 	closer.classList.toggle("hidden");
 	closer.classList.toggle("visible");
 	menu2.classList.remove("menuG");
+	document.documentElement.style.overflow = "auto";
+	document.body.scroll = "yes";
 });
