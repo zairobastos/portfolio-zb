@@ -87,7 +87,8 @@
 }
 .gray-light .sobreMim .desc p,
 .gray-light .experiencia .divisao .detalhes .desc,
-.gray-light .projetos .listagem .p1 p .light .footer p {
+.gray-light .projetos .listagem .p1 p,
+.light .footer p {
 	color: #303134;
 }
 .light nav {
