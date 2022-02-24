@@ -85,6 +85,9 @@
 	header nav .hidden {
 		display: none;
 	}
+	.hidden-li {
+		display: block;
+	}
 	header .dark-light {
 		display: none;
 	}
@@ -184,7 +187,10 @@
 		margin-left: 10%;
 	}
 	header .apresentacao .eu .texto h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
+	}
+	header .apresentacao .eu .texto h3 {
+		font-size: 1.2rem;
 	}
 
 	main .projetos .listagem .p1 div {

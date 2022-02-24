@@ -91,3 +91,6 @@ header nav .close {
 	color: #fff;
 	margin: 0;
 }
+.hidden-li {
+	display: none;
+}
