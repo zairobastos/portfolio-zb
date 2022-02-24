@@ -24,6 +24,7 @@
 	transition: 200ms;
 	cursor: pointer;
 	position: relative;
+	padding: 4px;
 }
 .toggle + label:before {
 	content: "";
@@ -37,6 +38,7 @@
 	left: 0.125rem;
 	top: 0.125rem;
 	transition: 200ms;
+	cursor: pointer;
 }
 .toggle:checked + label {
 	background-color: #f2f2f2;
@@ -48,7 +50,37 @@
 	background: #303134;
 	box-shadow: 0 4px 4px rgba(0 0 0 / 10%);
 }
+.toggle label svg {
+	transition: opacity 0.2s ease 0s, transform 0.35s ease 0s;
+	pointer-events: none;
+}
+label svg .feather-sun {
+	color: #151515;
+}
+.feather-sun {
+	opacity: 0;
+	left: 9px;
+	bottom: 9px;
+	transform: translateX(4px);
+}
 
+.feather-moon {
+	opacity: 1;
+	right: 10px;
+	bottom: 9px;
+	margin-left: 3px;
+	color: #fff;
+	transform: translateX(0px);
+}
+input:checked + label .feather-sun {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+input:checked + label .feather-moon {
+	opacity: 0;
+	transform: translateX(-4px);
+}
 /*Estilos CSS background*/
 .dark {
 	background-color: #121212;

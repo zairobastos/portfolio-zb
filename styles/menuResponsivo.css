@@ -1,19 +1,24 @@
-@media screen and (max-width: 1255px) {
+@media screen and (max-width: 1274px) {
 	main .sobreMim {
 		gap: 5rem;
 		transition: all 0.5s;
+	}
+	main .sobreMim .desc {
+		width: 50%;
 	}
 }
 @media screen and (max-width: 1134px) {
 	header .apresentacao figure img {
 		display: none;
 	}
-	header nav {
-		margin: 0% 5%;
-		width: 90%;
+	header .menu {
+		width: 100%;
+		padding: 2.5rem 5%;
+		margin-left: 0;
 	}
 	header .dark-light {
 		width: 90%;
+		margin-left: 5%;
 	}
 
 	main .sobreMim {
@@ -43,30 +48,13 @@
 	}
 }
 
-@media screen and (max-width: 1030px) {
-	main .sobreMim {
-		gap: 0;
-	}
-	main .sobreMim .desc {
-		margin-left: -50px;
-	}
-	main .sobreMim .perfil img {
-		width: 11.875rem;
-		height: 11.875rem;
-		margin: 0;
-	}
-}
-
 @media screen and (max-width: 876px) {
-	main .sobreMim .desc {
-		margin-left: -50px;
-		width: 25rem;
-	}
 	main .sobreMim {
-		margin-left: 5%;
+		padding-left: 5%;
+		gap: 3%;
 	}
 	main .experiencia {
-		padding: 6.25rem 5% 0 5%;
+		padding: 6.25rem 5%;
 		margin-bottom: 0;
 	}
 	main .experiencia .divisao .detalhes {
@@ -78,10 +66,15 @@
 	main .experiencia .divisao .detalhes .desc {
 		font-size: 1rem;
 	}
+	main .projetos {
+		padding: 6.25rem 5%;
+	}
 }
+
 @media screen and (max-width: 755px) {
+	/*Menu*/
 	header .apresentacao .eu {
-		margin-bottom: 6.5rem;
+		margin: 13rem 5% 6.5rem 5%;
 	}
 	header nav ul {
 		display: none;
@@ -97,14 +90,10 @@
 	}
 	header .menu-mob {
 		display: block;
-		z-index: 1000;
+		z-index: 10;
 	}
 	.menu {
 		position: fixed;
-		width: 100%;
-		margin: 0;
-		padding-right: 5%;
-		padding-left: 5%;
 	}
 	.dark .menu {
 		z-index: 10;
@@ -119,7 +108,7 @@
 	}
 	.menuG {
 		border: none;
-		height: 100vh;
+		height: 100%;
 		align-items: flex-start;
 	}
 	header .header-menu-mob {
@@ -128,6 +117,7 @@
 		align-items: center;
 		width: 100%;
 	}
+
 	header .menuG ul {
 		display: flex;
 		flex-direction: column;
@@ -139,13 +129,15 @@
 	header .menuG ul li a {
 		font-size: 1.5rem;
 	}
+
+	/*Parte de Experiência*/
 	main .experiencia {
 		width: 100%;
-		padding-bottom: 6.25rem;
 	}
 	main .experiencia .divisao {
 		flex-direction: column;
 		width: 100%;
+		gap: 1rem;
 	}
 	main .experiencia .divisao ul {
 		display: flex;
@@ -157,6 +149,10 @@
 	.gray-light .experiencia .divisao ul li {
 		border: none;
 		border-bottom: 2px solid #151515;
+		display: flex;
+		padding-left: 0;
+		justify-content: center;
+		align-items: center;
 	}
 	.gray-light .experiencia .divisao ul li {
 		border-bottom: 2px solid #f9f9f9;
@@ -166,40 +162,21 @@
 		border: none;
 		border-bottom: 2px solid #00d2df;
 	}
-
 	main .experiencia .divisao .detalhes {
 		width: 100%;
 	}
 
-	main .projetos {
+	/*Sobre Mim*/
+	main .sobreMim {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	main .sobreMim .desc {
 		width: 90%;
-		padding-left: 5%;
-	}
-	main .projetos .listagem .p1 div {
-		width: 100%;
-	}
-	main .projetos .listagem .p1 div figure {
-		width: 424.42px;
-		height: 239.67px;
-	}
-	main .projetos .listagem .p1 div figure img {
-		width: 424.42px;
-		height: 239.67px;
 	}
 }
 
-@media screen and (max-width: 674px) {
-	main .sobreMim {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-	}
-	main .sobreMim .desc {
-		margin: 1rem 0 0 0;
-		width: 100%;
-	}
-}
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 690px) {
 	header .apresentacao {
 		padding-left: 0%;
 	}
@@ -208,5 +185,9 @@
 	}
 	header .apresentacao .eu .texto h1 {
 		font-size: 3rem;
+	}
+
+	main .projetos .listagem .p1 div {
+		width: 100%;
 	}
 }

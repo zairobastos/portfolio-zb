@@ -2,13 +2,15 @@ main {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	width: 100%;
 }
 main .sobreMim {
 	display: flex;
-	margin: 6.25rem 0 6.25rem 12.5%;
-	gap: 11.438rem;
+	padding: 6.25rem 0 6.25rem 12.5%;
+	gap: 15%;
 	flex-wrap: wrap;
 	transition: all 0.5s;
+	width: 100%;
 }
 main .sobreMim .perfil img {
 	width: 22.938rem;
@@ -18,7 +20,7 @@ main .sobreMim .perfil img {
 	transition: all 0.5s;
 }
 main .sobreMim .desc {
-	width: 33.125rem;
+	width: 40%;
 }
 main .sobreMim .desc h2 {
 	color: #fff;

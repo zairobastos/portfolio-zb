@@ -3,6 +3,7 @@ main .experiencia {
 	flex-direction: column;
 	color: #fff;
 	gap: 1.625rem;
+	width: 100%;
 	padding: 6.25rem 0 6.25rem 12.5%;
 }
 main .experiencia .divisao {
@@ -21,7 +22,7 @@ main .experiencia .divisao ul li {
 	border-left: 2px solid #151515;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	padding-left: 2rem;
 	cursor: pointer;
 }
 main .experiencia .divisao ul .ativo {
