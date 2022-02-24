@@ -114,7 +114,11 @@ input:checked + label .feather-moon {
 .gray-light .projetos h2,
 .gray-light .projetos h3,
 .gray-light .projetos .listagem .p1 a,
-.light p {
+.light p,
+.light h2,
+.light form label,
+.light form input,
+.light form textarea {
 	color: #151515;
 }
 .gray-light .sobreMim .desc p,
@@ -137,4 +141,9 @@ input:checked + label .feather-moon {
 	color: #151515;
 	font-weight: 600;
 	border-left: 2px solid #00d2df;
+}
+
+.light form input,
+.light form textarea {
+	border: 2px solid rgb(228, 228, 228);
 }
